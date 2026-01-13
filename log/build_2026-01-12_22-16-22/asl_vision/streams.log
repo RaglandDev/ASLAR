@@ -1,0 +1,32 @@
+[1.017s] Invoking command in '/home/alex/asla/src/asl_vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alex/asla/build/asl_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/asla/install/asl_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/asl_vision build --build-base /home/alex/asla/build/asl_vision/build install --record /home/alex/asla/build/asl_vision/install.log --single-version-externally-managed install_data
+[1.295s] running egg_info
+[1.295s] creating ../../build/asl_vision/asl_vision.egg-info
+[1.317s] writing ../../build/asl_vision/asl_vision.egg-info/PKG-INFO
+[1.317s] writing dependency_links to ../../build/asl_vision/asl_vision.egg-info/dependency_links.txt
+[1.318s] writing requirements to ../../build/asl_vision/asl_vision.egg-info/requires.txt
+[1.318s] writing top-level names to ../../build/asl_vision/asl_vision.egg-info/top_level.txt
+[1.318s] writing manifest file '../../build/asl_vision/asl_vision.egg-info/SOURCES.txt'
+[1.358s] reading manifest file '../../build/asl_vision/asl_vision.egg-info/SOURCES.txt'
+[1.359s] writing manifest file '../../build/asl_vision/asl_vision.egg-info/SOURCES.txt'
+[1.359s] running build
+[1.359s] running build_py
+[1.360s] creating /home/alex/asla/build/asl_vision/build
+[1.360s] creating /home/alex/asla/build/asl_vision/build/lib
+[1.360s] creating /home/alex/asla/build/asl_vision/build/lib/asl_vision
+[1.360s] copying asl_vision/__init__.py -> /home/alex/asla/build/asl_vision/build/lib/asl_vision
+[1.360s] running install
+[1.367s] running install_lib
+[1.386s] creating /home/alex/asla/install/asl_vision/lib/python3.12/site-packages/asl_vision
+[1.386s] copying /home/alex/asla/build/asl_vision/build/lib/asl_vision/__init__.py -> /home/alex/asla/install/asl_vision/lib/python3.12/site-packages/asl_vision
+[1.387s] byte-compiling /home/alex/asla/install/asl_vision/lib/python3.12/site-packages/asl_vision/__init__.py to __init__.cpython-312.pyc
+[1.387s] running install_data
+[1.388s] creating /home/alex/asla/install/asl_vision/share/ament_index
+[1.388s] creating /home/alex/asla/install/asl_vision/share/ament_index/resource_index
+[1.388s] creating /home/alex/asla/install/asl_vision/share/ament_index/resource_index/packages
+[1.388s] copying resource/asl_vision -> /home/alex/asla/install/asl_vision/share/ament_index/resource_index/packages
+[1.388s] copying package.xml -> /home/alex/asla/install/asl_vision/share/asl_vision
+[1.388s] running install_egg_info
+[1.412s] Copying ../../build/asl_vision/asl_vision.egg-info to /home/alex/asla/install/asl_vision/lib/python3.12/site-packages/asl_vision-0.0.0-py3.12.egg-info
+[1.413s] running install_scripts
+[1.544s] writing list of installed files to '/home/alex/asla/build/asl_vision/install.log'
+[1.576s] Invoked command in '/home/alex/asla/src/asl_vision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alex/asla/build/asl_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/asla/install/asl_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/asl_vision build --build-base /home/alex/asla/build/asl_vision/build install --record /home/alex/asla/build/asl_vision/install.log --single-version-externally-managed install_data

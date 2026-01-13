@@ -1,0 +1,24 @@
+[0.797s] Invoking command in '/home/alex/asla/src/asl_vision': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alex/asla/build/asl_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/asla/install/asl_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/asl_vision build --build-base /home/alex/asla/build/asl_vision/build install --record /home/alex/asla/build/asl_vision/install.log --single-version-externally-managed install_data
+[1.065s] running egg_info
+[1.084s] writing ../../build/asl_vision/asl_vision.egg-info/PKG-INFO
+[1.085s] writing dependency_links to ../../build/asl_vision/asl_vision.egg-info/dependency_links.txt
+[1.085s] writing entry points to ../../build/asl_vision/asl_vision.egg-info/entry_points.txt
+[1.085s] writing requirements to ../../build/asl_vision/asl_vision.egg-info/requires.txt
+[1.085s] writing top-level names to ../../build/asl_vision/asl_vision.egg-info/top_level.txt
+[1.126s] reading manifest file '../../build/asl_vision/asl_vision.egg-info/SOURCES.txt'
+[1.127s] writing manifest file '../../build/asl_vision/asl_vision.egg-info/SOURCES.txt'
+[1.127s] running build
+[1.127s] running build_py
+[1.128s] copying asl_vision/camera_node.py -> /home/alex/asla/build/asl_vision/build/lib/asl_vision
+[1.128s] running install
+[1.134s] running install_lib
+[1.154s] copying /home/alex/asla/build/asl_vision/build/lib/asl_vision/camera_node.py -> /home/alex/asla/install/asl_vision/lib/python3.12/site-packages/asl_vision
+[1.154s] byte-compiling /home/alex/asla/install/asl_vision/lib/python3.12/site-packages/asl_vision/camera_node.py to camera_node.cpython-312.pyc
+[1.155s] running install_data
+[1.155s] running install_egg_info
+[1.176s] removing '/home/alex/asla/install/asl_vision/lib/python3.12/site-packages/asl_vision-0.0.0-py3.12.egg-info' (and everything under it)
+[1.176s] Copying ../../build/asl_vision/asl_vision.egg-info to /home/alex/asla/install/asl_vision/lib/python3.12/site-packages/asl_vision-0.0.0-py3.12.egg-info
+[1.177s] running install_scripts
+[1.305s] Installing camera_node script to /home/alex/asla/install/asl_vision/lib/asl_vision
+[1.306s] writing list of installed files to '/home/alex/asla/build/asl_vision/install.log'
+[1.338s] Invoked command in '/home/alex/asla/src/asl_vision' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/alex/asla/build/asl_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alex/asla/install/asl_vision/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/asl_vision build --build-base /home/alex/asla/build/asl_vision/build install --record /home/alex/asla/build/asl_vision/install.log --single-version-externally-managed install_data

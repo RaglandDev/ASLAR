@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/asl_vision/asl_vision.egg-info/PKG-INFO
+writing dependency_links to ../../build/asl_vision/asl_vision.egg-info/dependency_links.txt
+writing entry points to ../../build/asl_vision/asl_vision.egg-info/entry_points.txt
+writing requirements to ../../build/asl_vision/asl_vision.egg-info/requires.txt
+writing top-level names to ../../build/asl_vision/asl_vision.egg-info/top_level.txt
+reading manifest file '../../build/asl_vision/asl_vision.egg-info/SOURCES.txt'
+writing manifest file '../../build/asl_vision/asl_vision.egg-info/SOURCES.txt'
+running build
+running build_py
+copying asl_vision/camera_node.py -> /home/alex/asla/build/asl_vision/build/lib/asl_vision
+running install
+running install_lib
+copying /home/alex/asla/build/asl_vision/build/lib/asl_vision/camera_node.py -> /home/alex/asla/install/asl_vision/lib/python3.12/site-packages/asl_vision
+byte-compiling /home/alex/asla/install/asl_vision/lib/python3.12/site-packages/asl_vision/camera_node.py to camera_node.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/alex/asla/install/asl_vision/lib/python3.12/site-packages/asl_vision-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/asl_vision/asl_vision.egg-info to /home/alex/asla/install/asl_vision/lib/python3.12/site-packages/asl_vision-0.0.0-py3.12.egg-info
+running install_scripts
+Installing camera_node script to /home/alex/asla/install/asl_vision/lib/asl_vision
+writing list of installed files to '/home/alex/asla/build/asl_vision/install.log'
