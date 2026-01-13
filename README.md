@@ -1,2 +1,2 @@
-# asla
-American Sign Language Alphabet recognition using computer vision
+# ASLAR
+American Sign Language Alphabet Recognition using computer vision
