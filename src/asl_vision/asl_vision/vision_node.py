@@ -90,60 +90,11 @@ class ASLVisionNode(Node):
         r = RING_TIP.y < RING_PIP.y
         p = PINKY_TIP.y < PINKY_PIP.y
 
-        # distance helpers
-        dist_thumb_index = self.get_dist(THUMB_TIP, INDEX_TIP)
-        dist_thumb_middle = self.get_dist(THUMB_TIP, MIDDLE_PIP)
-
-        # finger signs
-        if i and m and r and p:
-            return "B"
-        if i and m and r and not p:
-            return "W"
-
-        if i and m and not r and not p:
-            if INDEX_TIP.x > MIDDLE_TIP.x:
-                return "R"
-            if dist_thumb_middle < 0.06: # thumb touches middle joint
-                return "K"
-            return "V"
-
-        if i and not m and not r and not p:
-            if THUMB_TIP.x < INDEX_MCP.x - 0.03: # thumb out to side
-                return "L"
-            return "D"
-
-        if p and not i and not m and not r:
-            if THUMB_TIP.x < INDEX_MCP.x - 0.03:
-                return "Y"
-            return "I"
-
-        if m and r and p and not i:
-            if dist_thumb_index < 0.05: # thumb index touching
-                return "F"
-
-
         # fist signs
         if not any([i, m, r, p]):
-            if THUMB_TIP.y > INDEX_PIP.y:
-                return "E"
-
-            if THUMB_TIP.x < INDEX_MCP.x - 0.03:
+            if THUMB_CMC.y > THUMB_MCP.y > THUMB_IP.y > THUMB_TIP.y:
                 return "A"
 
-            # goalpost logic, midpoints between knuckles
-            mid_IM = (INDEX_MCP.x + MIDDLE_MCP.x) / 2
-            mid_MR = (MIDDLE_MCP.x + RING_MCP.x) / 2
-            mid_RP = (RING_MCP.x + PINKY_MCP.x) / 2
-
-            tx = THUMB_TIP.x
-            if tx < mid_IM:
-                return "S"
-            elif tx < mid_MR:
-                return "T"
-            elif tx < mid_RP:
-                return "N"
-            else:
-                return "M"
 
         return "Unable to classify gesture"
 
