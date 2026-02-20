@@ -98,6 +98,10 @@ class ASLVisionNode(Node):
             if THUMB_MCP.x > THUMB_IP.x > THUMB_TIP.x:
                 return "B"
 
+        if INDEX_TIP.x > INDEX_MCP.x and MIDDLE_TIP.x > MIDDLE_MCP.x and RING_TIP.x > RING_MCP.x and PINKY_TIP.x > PINKY_MCP.x:
+            if THUMB_TIP.x > THUMB_IP.x > THUMB_MCP.x:
+                return "C"
+
 
         return "Unable to classify gesture"
 
