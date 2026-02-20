@@ -90,10 +90,13 @@ class ASLVisionNode(Node):
         r = RING_TIP.y < RING_PIP.y
         p = PINKY_TIP.y < PINKY_PIP.y
 
-        # fist signs
         if not any([i, m, r, p]):
             if THUMB_CMC.y > THUMB_MCP.y > THUMB_IP.y > THUMB_TIP.y:
                 return "A"
+
+        if i and m and r and p:
+            if THUMB_MCP.x > THUMB_IP.x > THUMB_TIP.x:
+                return "B"
 
 
         return "Unable to classify gesture"
