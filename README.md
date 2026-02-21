@@ -1,5 +1,5 @@
 # ASLAR
-American Sign Language Alphabet Recognition using computer vision
+American Sign Language Alphabet Recognition 
 
 ## Publisher Nodes
 - `CameraNode`
